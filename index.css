@@ -1,0 +1,262 @@
+body{
+    margin: 0px;
+}
+
+.first-section{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1920px;
+    height: 100px;
+    margin: 0;
+    background: #000000;
+}
+
+.second-section{
+    position: absolute;
+    width: 1920px;
+    height: 700px;
+    margin: 0px;
+    top: 100px;
+}
+
+.container{
+    display: flex;
+}
+
+.third-section-subtitle{
+    position: absolute;
+    width: 220px;
+    height: 80px;
+    left: 390px;
+    top: 950px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 80px;
+    /* identical to box height, or 250% */
+    
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+}
+
+.third-section-title{
+    position: absolute;
+    width: 403px;
+    height: 80px;
+    left: 390px;
+    top: 997px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 80px;
+    /* identical to box height, or 167% */
+    
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+}
+
+.third-section-text{
+    width: 766px;
+    height: 56px;
+    left: 390px;
+    top: 1083px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.image-telas{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+.image-vidro{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.image-flecha{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+.fourth-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    background: #f0f0f0;
+    width: 100%;
+}
+
+.fourth-rectangle{
+    /* Rectangle 11 */
+    position: absolute;
+    width: 1920px;
+    height: 435px;
+    left: 0px;
+    top: 1290px;
+    margin: 0;
+
+    background: #F0F0F0;
+}
+
+.fourth-section-box{
+    /* Rectangle 1 */
+    position: relative;
+    width: 350.33px;
+    height: 287.95px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
+}
+
+.fourth-section-box1{
+    /* Rectangle 1 */
+    position: absolute;
+    width: 350.33px;
+    height: 287.95px;
+    left: 414px;
+    top: 1363.52px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
+}
+
+.fourth-section-box2{
+    /* Rectangle 2 */
+    position: absolute;
+    width: 350.33px;
+    height: 287.95px;
+    left: 414px;
+    top: 1363.52px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
+}
+
+.fourth-section-box3{
+    /* Rectangle 3 */
+    position: absolute;
+    width: 350.33px;
+    height: 287.95px;
+    left: 414px;
+    top: 1363.52px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
+}
+
+.fifth-section{
+    /* Rectangle 13 */
+    position: absolute;
+    width: 1920px;
+    height: 520px;
+    left: 0px;
+    top: 1725px;
+
+    background: url(tianyi-ma-WiONHd_zYI4-unsplash.jpg);
+}
+
+.sixth-section{
+    /* Rectangle 8 */
+    position: absolute;
+    width: 1920px;
+    height: 750px;
+    left: 0px;
+    top: 2387px;
+
+    background: linear-gradient(180deg, #00C8FF 0%, #15ACD6 100%);
+}
+
+.grid-4-boxes{
+        display: grid;
+        grid-template-columns: 432px 332px;
+}
+
+.item1{
+    position: relative;
+}
+
+#image {
+    position: absolute;
+}
+
+.seventh-section{
+    display:flex;
+}
+
+.seventh-section-title{
+    position: absolute;
+    width: 420px;
+    height: 20px;
+    left: 1065px;
+    top: 3498px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 20px;
+    /* identical to box height, or 62% */
+    
+    
+    color: #000000;
+}
+
+.seventh-section-text{
+    position: absolute;
+    width: 550px;
+    height: 120px;
+    left: 1065px;
+    top: 3536px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    color: #000000;
+}
+
+.footer-text{
+    /* Copyright © 2020 - Loja Comércio Eletrônico | CNPJ: 000.000.000/0001-00 */
+    position: absolute;
+    left: 39.48%;
+    right: 39.48%;
+    top: 98.83%;
+    bottom: 0.91%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+
+    /* Gray 4 */
+
+    color: #BDBDBD;
+}
